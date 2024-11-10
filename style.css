@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    /* position: fixed;
+    width: 100%; */
+    background-color: #CCCCFF;
+    color: #000000;
+    transition: 0.3s;
+    padding: 20px;
+    text-align: center;
+    }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    }
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.hero {
+    background: #CCCCFF;
+    color: black;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.Mission-services {
+    background-color:#808080;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.card {
+    background: #fff;
+    padding: 5px;
+    margin: 5px;
+    width: 40%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#quick-contact {
+    background: #CCCCFF;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#bgimg {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.service-cards2 {
+    background: #CCCCFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0px;
+}
